@@ -9,6 +9,8 @@ public class RestAPITest {
 	public void DeleteCookies()
 	{
 		System.out.println("DeleteCookies");
+		System.out.println("Add Git Version");
+		System.out.println("Delete Git Version Cookies");
 	}
 	@Test
 	public void DeleteHistory()
