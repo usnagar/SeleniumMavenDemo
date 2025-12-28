@@ -1,0 +1,9 @@
+automation\pageObjectModel\LandingPage.class
+automation\pageObjectModel\OrderHistory.class
+automation\resources\ExtentReporterNG.class
+automation\abstractComponents\AbstractComponent.class
+automation\pageObjectModel\ConfirmationPage.class
+WebAutomation\App.class
+automation\pageObjectModel\CheckoutPage.class
+automation\pageObjectModel\MyCartPage.class
+automation\pageObjectModel\ProductCatalogue.class

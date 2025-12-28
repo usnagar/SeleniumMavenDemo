@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite parallel="tests" name="Default_Suite"><!-- Default_Suite -->
+
+<!--Positive Test-->
+  <test thread-count="5" name="E2E Order Submission Test">
+  <!-- thread-count="5".It means 5 browsers can run at a time-->
+    <classes>
+     <class name="automation.tests.StandAloneTest"/>
+    </classes>
+  </test> 
+  
+  <!-- Negative Test-->
+    <test thread-count="5" name="Error Validations Test">
+    <classes>
+      <class name="automation.tests.ErrorValidationsTest"/>
+    </classes>
+  </test>
+  
+</suite> 

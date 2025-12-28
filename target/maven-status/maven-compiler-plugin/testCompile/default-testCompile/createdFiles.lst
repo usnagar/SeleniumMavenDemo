@@ -1,0 +1,11 @@
+automation\data\DataReader$1.class
+automation\testComponents\Listeners.class
+WebAutomation\RestAPITest.class
+automation\testComponents\BaseTest$1.class
+WebAutomation\SeleniumTest.class
+automation\testComponents\BaseTest.class
+WebAutomation\AppiumTest.class
+automation\testComponents\RetryListener.class
+automation\data\DataReader.class
+automation\tests\StandAloneTest.class
+automation\tests\ErrorValidationsTest.class

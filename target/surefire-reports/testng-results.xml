@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-28T14:43:07 IST" name="Default_Suite" finished-at="2025-12-28T14:43:21 IST" duration-ms="13889">
+    <groups>
+      <group name="ErrorHanding">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:automation.tests.ErrorValidationsTest@4b520ea8]" name="LoginErrorValidation" class="automation.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHanding -->
+    </groups>
+    <test started-at="2025-12-28T14:43:07 IST" name="E2E Order Submission Test" finished-at="2025-12-28T14:43:07 IST" duration-ms="23">
+    </test> <!-- E2E Order Submission Test -->
+    <test started-at="2025-12-28T14:43:07 IST" name="Error Validations Test" finished-at="2025-12-28T14:43:21 IST" duration-ms="13889">
+      <class name="automation.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automation.tests.ErrorValidationsTest@4b520ea8]" started-at="2025-12-28T14:43:07 IST" name="launchApplication" finished-at="2025-12-28T14:43:14 IST" duration-ms="7028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:automation.tests.ErrorValidationsTest@4b520ea8]" started-at="2025-12-28T14:43:14 IST" name="LoginErrorValidation" finished-at="2025-12-28T14:43:14 IST" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.tests.ErrorValidationsTest@4b520ea8]" started-at="2025-12-28T14:43:14 IST" name="tearDown" finished-at="2025-12-28T14:43:15 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automation.tests.ErrorValidationsTest@4b520ea8]" started-at="2025-12-28T14:43:15 IST" name="launchApplication" finished-at="2025-12-28T14:43:18 IST" duration-ms="3783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:automation.tests.ErrorValidationsTest@4b520ea8]" started-at="2025-12-28T14:43:18 IST" name="ProductErrorValidation" finished-at="2025-12-28T14:43:21 IST" duration-ms="2199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.tests.ErrorValidationsTest@4b520ea8]" started-at="2025-12-28T14:43:21 IST" name="tearDown" finished-at="2025-12-28T14:43:21 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Default_Suite -->
+</testng-results>
